@@ -4,6 +4,8 @@
     Bu proje göze hitap eden estetik bir Amazon alışveriş web sitesi tasarımıdır. Zarif dizaynıyla dikkatleri çekmektedir.
 </p>
 
+![Image](https://github.com/user-attachments/assets/db116d25-747a-407b-9f46-c24ca2fa94a7)
+
 <hr>
 
 <h2>Projenin Özellikleri </h2>
