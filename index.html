@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- * Header -->
+    <header>
+      <!-- Logo -->
+      <div class="logo border">
+        <img src="images/amazon_logo.png" alt="logo" />
+      </div>
+
+      <!-- TODO adres -->
+      <div class="address border">
+        <div class="top">Adres:</div>
+        <div class="bottom">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Türkiye</span>
+        </div>
+      </div>
+
+      <div class="search">
+        <!-- select -->
+        <select name="" id="">
+          <option selected disabled>Seçiniz</option>
+          <option value="">Hepsi</option>
+          <option value="">Ev</option>
+          <option value="">Elektronik</option>
+        </select>
+        <!-- input -->
+        <input type="search" placeholder="Amazon.com'da ara..." />
+        <!-- button -->
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <!-- nav => en dış kapsayıcı -->
+
+      <nav>
+        <div class="navigation-item border">
+          <span>Merhaba, Giriş Yapın</span>
+          <p>Hesap ve Listeler</p>
+        </div>
+        <div class="navigation-item border">
+          <span>Kateforiler</span>
+          <p>ve Ürünler</p>
+        </div>
+        <div class="navigation-item border">
+          <span>İade</span>
+          <p>ve Siparişler</p>
+        </div>
+        <div class="navigation-item navigation-cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Sepet</span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- * Panel -->
+    <section class="panel">
+      <!-- sol kısım -->
+      <div class="left">
+        <div class="all">
+          <i class="fa-solid fa-bars"></i>
+          <span>Tümü</span>
+        </div>
+        <div class="panel-options">
+          <p>Gülümseten Kasım Fırsatları</p>
+          <p>Çok Satanlar</p>
+          <p>Prime</p>
+          <p>Yeni Çıkanlar</p>
+          <p>Hediye Fikirleri</p>
+        </div>
+      </div>
+      <!-- sağ kısım -->
+      <div class="right">
+        <p>Elektronik Alışveriş Fırsatları</p>
+      </div>
+    </section>
+
+    <!-- * Hero -->
+    <section class="hero">
+      <p class="hero-text">
+        Amazon.com'dasınız. Ayrıca hızlı yerel teslimatla milyonlarca ürün için
+        Amazon Türkiye'den alışveriş yapabilirsiniz.
+        <a href="#">Amazon.com.tr'ye gitmek için buraya tıklayın</a>
+      </p>
+    </section>
+
+    <!-- * Categories -->
+    <section class="categories">
+      <!-- category-box -->
+      <div class="category-box">
+        <h2>New Toys</h2>
+        <div class="category-img">
+          <img src="images/image-1.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+      <div class="category-box">
+        <h2>Furnitures</h2>
+        <div class="category-img">
+          <img src="images/image-2.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+      <div class="category-box">
+        <h2>Cosmetics</h2>
+        <div class="category-img">
+          <img src="images/image-3.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+      <div class="category-box">
+        <h2>Smartphones</h2>
+        <div class="category-img">
+          <img src="images/image-4.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+      <div class="category-box">
+        <h2>Pets</h2>
+        <div class="category-img">
+          <img src="images/image-5.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+      <div class="category-box">
+        <h2>Fashion</h2>
+        <div class="category-img">
+          <img src="images/image-6.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+      <div class="category-box">
+        <h2>Personal Hygiene</h2>
+        <div class="category-img">
+          <img src="images/image-7.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+      <div class="category-box">
+        <h2>Beauty</h2>
+        <div class="category-img">
+          <img src="images/image-8.jpg" alt="box-1" />
+        </div>
+        <button>See More</button>
+      </div>
+    </section>
+
+    <!-- * Discount -->
+    <h1 class="opportunities">Kaçırılmayacak Fırsatlar</h1>
+    <section class="discounts">
+      <div class="discount-box">
+        <!-- image -->
+        <div class="image">
+          <img src="images/1.jpeg" alt="" />
+        </div>
+        <!-- content -->
+        <div class="content">
+          <p>Gülümseten Kasım Fırsatları</p>
+          <p class="title">Ev Aletleri</p>
+        </div>
+        <!-- ribbon -->
+        <div class="ribbon">23%</div>
+      </div>
+      <div class="discount-box">
+        <!-- image -->
+        <div class="image">
+          <img src="images/2.jpeg" alt="" />
+        </div>
+        <!-- content -->
+        <div class="content">
+          <p>Gülümseten Kasım Fırsatları</p>
+          <p class="title">Ev Aletleri</p>
+        </div>
+      </div>
+      <div class="discount-box">
+        <!-- image -->
+        <div class="image">
+          <img src="images/3.jpeg" alt="" />
+        </div>
+        <!-- content -->
+        <div class="content">
+          <p>Gülümseten Kasım Fırsatları</p>
+          <p class="title">Ev Aletleri</p>
+        </div>
+      </div>
+      <div class="discount-box">
+        <!-- image -->
+        <div class="image">
+          <img src="images/4.jpeg" alt="" />
+        </div>
+        <!-- content -->
+        <div class="content">
+          <p>Gülümseten Kasım Fırsatları</p>
+          <p class="title">Ev Aletleri</p>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="go-top">Başa Dön</a>
+
+    <footer>
+      <div class="footer-box">
+        <h3>Hakkımızda</h3>
+        <ul>
+          <li><a href="#">Kariyer</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h3>Hakkımızda</h3>
+        <ul>
+          <li><a href="#">Kariyer</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h3>Hakkımızda</h3>
+        <ul>
+          <li><a href="#">Kariyer</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h3>Hakkımızda</h3>
+        <ul>
+          <li><a href="#">Kariyer</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+          <li><a href="#">Amazon Science</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
