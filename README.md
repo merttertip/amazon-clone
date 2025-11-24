@@ -18,16 +18,18 @@
 
 <hr>
 
-<p> 
-Bu proje göze hitap eden estetik bir Amazon alışveriş web sitesi tasarımıdır. Zarif tasarımıyla dikkatleri çekmiyor.
+<p>
+This project is an aesthetically pleasing Amazon shopping website design. Its elegant design doesn't draw attention.
 </p>
 
-<saat>
+<hour>
 
-<h2>Projenin Özellikleri </h2>
+<h2>Project Features</h2>
 
-<ul> 
-<li>Açıklayıcı HTML hazırlaması</li> 
-<li>CSS3 Özellikleri Kullanımı</li> 
-<li>Responsive Tasarım ile Mobil koruma uyumu sağlar.</li>
+<ul>
+<li>Preparing descriptive HTML</li>
+
+<li>Using CSS3 Features</li>
+
+<li>Provides mobile compatibility with responsive design.</li>
 </ul>
